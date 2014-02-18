@@ -5,14 +5,12 @@
  * Date: 13/02/14
  * Time: 21:30
  */
-include_once  __DIR__.'/../src/Users.php';
-
 
 class UsersTest extends PHPUnit_Framework_TestCase
 {
     private static $con;
     private $users;
-
+/*
     public static function setUpBeforeClass ()
     {
         //$users = new Users();
@@ -106,5 +104,6 @@ class UsersTest extends PHPUnit_Framework_TestCase
 
         $this->assertTrue(empty($errors));
     }
+*/
 
 }
