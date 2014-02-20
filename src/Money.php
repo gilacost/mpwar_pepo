@@ -5,7 +5,7 @@
  * Date: 11/02/14
  * Time: 20:52
  */
-
+namespace Development;
 
 class Money
 {

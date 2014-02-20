@@ -1,14 +1,10 @@
 <?php
 
 
-/**
- * Created by PhpStorm.
- * User: joseplluisgiraltdlacoste
- * Date: 11/02/14
- * Time: 20:56
- */
+namespace Development;
 
-class MoneyTest extends PHPUnit_Framework_TestCase
+
+class MoneyTest extends \PHPUnit_Framework_TestCase
 {
 
     public function testCanBeNegated()
