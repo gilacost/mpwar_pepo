@@ -41,7 +41,6 @@ class ServiceProvider
 	 */
 	public function getService( $object_name )
 	{
-        var_dump($this->services);
 		if ( !empty( $this->services[ $object_name ] ) )
 		{
 			return $this->services[ $object_name ];
